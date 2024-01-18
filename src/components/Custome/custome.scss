@@ -1,0 +1,12 @@
+@import '.../../../../scss//mixin';
+
+.custome{
+    @include padding;
+    .swipe-slide{
+.product-content{
+    .reviews{
+     @include flex;
+    }
+}
+    }
+}

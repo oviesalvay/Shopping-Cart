@@ -3,3 +3,26 @@
   margin: 0;
   box-sizing: border-box;
 }
+img{
+  max-width: 100%;
+}
+body,html{
+  overflow-x: hidden;
+}
+.swiper-button-next:after{
+  font-size:1rem!important;
+  background-color: white!important;
+  border-radius: 2rem;
+  padding: 1rem;
+  box-shadow: 2px -4px 35px -8px rgba(0, 0, 0, 0.18);
+}
+.swiper-button-prev:after{
+  font-size:1rem!important;
+  background-color: white!important;
+  border-radius: 2rem;
+  padding: 1rem;
+  box-shadow: 2px -4px 35px -8px rgba(0, 0, 0, 0.18);
+}
+p{
+  margin: .7rem 0;
+}

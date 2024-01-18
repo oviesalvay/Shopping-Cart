@@ -1,0 +1,68 @@
+@import '../../scss/mixin';
+
+footer{
+    @include padding;
+    .footer-top{
+        @include flex-align;
+    }
+    background-color: #020203;
+    color:white;
+    .the-first{
+        @include flexbox;
+        .sub{
+            @include flex;
+            .subscribe{
+                background-color: #0156FF;
+                border: none;
+                padding: .6rem 1rem;
+                color:#fff;
+                border-radius: 1rem;
+
+            }
+            input{
+                padding: .6rem .5rem;
+outline:none;
+            }
+        }
+    }
+    .footer-content{
+        @include flex-wrap;
+        margin:1rem 0;
+        >div{
+            flex-basis: 200px;
+            flex-grow: 1;
+        }
+        li{
+            list-style: none;
+            margin:.5rem 0;
+        }
+    }
+    .footer-bottom{
+        @include flexbox;
+        flex-wrap: wrap;
+        >div{
+            flex-basis: 300px;
+        }
+        .social-icon{
+            >img{
+                margin:0 .7rem;
+            }
+        }
+    }
+}
+@media screen and (max-width:990px){
+    footer{
+padding: 1rem;
+.footer-content{
+    h3{
+        margin:2rem 0;
+    }
+    >div{
+        flex-basis: 150px;
+    }
+}
+    }
+    .footer-bottom{
+        text-align: center;
+    }
+}

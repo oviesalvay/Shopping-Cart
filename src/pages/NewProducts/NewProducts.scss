@@ -1,0 +1,35 @@
+@import '.././../scss/mixin';
+
+.products{
+    @include padding;
+    .see-all{
+        @include flexbox;
+    }
+    .swipe-slide{
+        .swiper-button-next:after{
+            font-size:1rem!important;
+            background-color: white!important;
+            border-radius: 2rem;
+            padding: 1rem;
+            box-shadow: 2px -4px 35px -8px rgba(0, 0, 0, 0.18);
+        }
+        .swiper-button-prev:after{
+            font-size:1rem!important;
+            background-color: white!important;
+            border-radius: 2rem;
+            padding: 1rem;
+            box-shadow: 2px -4px 35px -8px rgba(0, 0, 0, 0.18);
+        }
+        .product-content{
+    .reviews{
+        display: flex;
+        gap:1rem;
+        align-items: center;
+        // margin:1rem 0;
+    }
+    span{
+        // margin:2rem 0;
+    }
+   }
+}
+}

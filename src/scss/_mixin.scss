@@ -1,0 +1,26 @@
+
+
+@mixin flexbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:1rem;
+}
+@mixin padding{
+    padding: 2rem clamp(4rem, 6vh, 8rem)6rem;
+}
+@mixin flex{
+    display: flex;
+    align-items: center;
+    gap:1rem;
+}
+@mixin flex-wrap{
+    display: flex;
+    // align-items: center;
+    flex-wrap: wrap;
+}
+@mixin flex-align{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}

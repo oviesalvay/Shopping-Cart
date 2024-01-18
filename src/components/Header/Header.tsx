@@ -1,9 +1,12 @@
 import logo from './logo.png'
-
+import './header.scss';
+import cart from './cart.png'
+import man from './man.png'
+import search from './search.png'
 
 const Header = () =>{
     return(
-        <>
+        <section className='header'>
         <div>
         <img src={logo}alt=""/>
         </div>
@@ -28,8 +31,19 @@ const Header = () =>{
         <div>
             <p>Repairs</p>
         </div>
-        
-        </>
+       <div>
+            <button className='deals'>Our Deals</button>
+        </div>
+        <div>
+        <img src={search} alt=""/>
+       </div>
+       <div>
+        <img src={cart} alt=""/>
+       </div>
+       <div>
+        <img src={man} alt=""/>
+       </div>
+        </section>
     )
 }
 export default Header;
