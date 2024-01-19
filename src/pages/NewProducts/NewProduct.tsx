@@ -131,7 +131,6 @@ const NewProducts =()=>{
                                                
                                     </div>
                                     </SwiperSlide>
-                                    
                                 </Swiper>
         </section>
     )
