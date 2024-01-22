@@ -1,5 +1,6 @@
 
 import './App.css'
+// import AboutProduct from './components/AboutProduct/AboutProduct'
 import Custome from './components/Custome/Custome'
 import Desktop from './components/Desktop/Desktop'
 import Footer from './components/Footer/Footer'
@@ -19,6 +20,7 @@ function App() {
      <Custome/>
      <Laptop/>
      <Desktop/>
+     {/* <AboutProduct/> */}
      <Footer/>
     </>
   )

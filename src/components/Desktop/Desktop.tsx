@@ -1,4 +1,4 @@
-
+// import Link from 'react-router-dom'
 
 import { SwiperSlide } from 'swiper/react'
 import { Swiper } from 'swiper/react';
@@ -78,6 +78,7 @@ const Desktop =()=>{
                                                 <p>Reviews (4)</p>
                                             </div>
                                             </div>
+                                           
                                         <p>EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...</p>
                                         <del>$499.00 </del> <p> $499.00</p>
                                     </div>
