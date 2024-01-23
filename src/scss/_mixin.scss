@@ -24,3 +24,8 @@
     justify-content: space-between;
     flex-wrap: wrap;
 }
+@mixin flex-between{
+    display: flex;
+    gap:2rem;
+    flex-wrap: wrap;
+}

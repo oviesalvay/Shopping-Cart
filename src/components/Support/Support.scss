@@ -1,0 +1,8 @@
+
+@import '../../scss/mixin';
+
+.support{
+   @include flex-between;
+    text-align: center;
+    padding:3rem 8rem;
+}

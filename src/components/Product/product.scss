@@ -1,0 +1,18 @@
+
+@import '../../scss/mixin';
+
+.product-content{
+    text-align: center;
+    padding:1rem 8rem;
+    // display:flex;
+    // align-items: center;
+    @include flex;
+    .product{
+        @include flex;
+        justify-content: space-between;
+        text-align: center;
+        padding:.2rem 2rem;
+        border:1px solid #CACDD8;
+        margin:1rem 0;
+    }
+}

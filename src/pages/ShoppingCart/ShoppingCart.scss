@@ -1,0 +1,9 @@
+@import '../../scss/mixin';
+
+.shopping-cart{
+    display: flex;
+    .cart{
+        display: flex;
+        align-items: center;
+    }
+}

@@ -1,0 +1,15 @@
+@import '../../scss/mixin';
+
+.features-content{
+    background-color: #242528;
+    text-align: center;
+    color:white;
+    padding:2rem 5rem;
+    h2{
+        font-size:1.5rem;
+    }
+    .features{
+        @include flex;
+        margin:2rem 0;
+    }
+}

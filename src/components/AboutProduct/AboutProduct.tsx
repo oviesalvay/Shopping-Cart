@@ -6,9 +6,11 @@ import Group from '../AboutProduct/Group.png'
 import image from '../AboutProduct/image.png'
 import primary from '../AboutProduct/primary.png'
 import OutPlay from "./OutPlay/OutPlay"
+
 const AboutProduct =()=>{
     const [tab,setTab]=useState(0)
     return(
+        <section className="about">
         <section className="about-product">
         <Header/>
         <div className="about-btn">
@@ -53,6 +55,7 @@ const AboutProduct =()=>{
 </div>
             </div></div>
         </div>
+        </section>
         <OutPlay/>
         </section>
     )
