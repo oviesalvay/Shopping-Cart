@@ -16,7 +16,6 @@
 }
 @mixin flex-wrap{
     display: flex;
-    // align-items: center;
     flex-wrap: wrap;
 }
 @mixin flex-align{
