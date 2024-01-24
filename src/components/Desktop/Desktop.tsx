@@ -1,5 +1,3 @@
-// import Link from 'react-router-dom'
-
 import { SwiperSlide } from 'swiper/react'
 import { Swiper } from 'swiper/react';
 import { Navigation } from 'swiper/modules';
@@ -9,7 +7,6 @@ import 'swiper/css/navigation';
 import desktop from './desktop.png'
 import image2 from './image2.png'
 import image1 from './image1.png'
-// import image4 from './image4.png'
 import Group from './Group.png'
 const Desktop =()=>{
     return(
