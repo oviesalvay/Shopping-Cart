@@ -1,5 +1,4 @@
-// import image from './image.png'
-// import images from './images.png'
+
 import './ShoppingCart.scss'
 import { useState } from 'react';
 const ShoppingCart= ()=>{
