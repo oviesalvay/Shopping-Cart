@@ -9,6 +9,7 @@ import image2 from './image2.png'
 import image3 from './image3.png'
 import image4 from './image4.png'
 import Group from './Group.png'
+
 const Laptop =()=>{
     return(
         <section className='custome'>
