@@ -20,7 +20,6 @@ const Support = ()=>{
     <h4>Personal Account</h4>
     <p>With big discounts, free <br></br>delivery and a dedicated support specialist.</p>
 </div>
-
         </section>
     )
 }
