@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Poppins:wght@500;600;700;900&family=Roboto:wght@500&display=swap');
 *{
   padding: 0;
   margin: 0;
@@ -8,6 +9,7 @@ img{
 }
 body,html{
   overflow-x: hidden;
+  font-family: 'Roboto','Open Sans','Poppins';
 }
 .swiper-button-next:after{
   font-size:1rem!important;

@@ -1,5 +1,6 @@
 
 import './App.css'
+import AboutProduct from './components/AboutProduct/AboutProduct'
 // import AboutProduct from './components/AboutProduct/AboutProduct'
 import Custome from './components/Custome/Custome'
 import Desktop from './components/Desktop/Desktop'
@@ -11,24 +12,26 @@ import Laptop from './components/Laptops/Laptops'
 // import Support from './components/Support/Support'
 import HomePage from './pages/HomePage/Homepage'
 import NewProducts from './pages/NewProducts/NewProduct'
-// import ShoppingCart from './pages/ShoppingCart/ShoppingCart'
-
+import ShoppingCart from './pages/ShoppingCart/ShoppingCart'
+// import {Routes,} from 'react-router-dom'
 function App() {
  
 
   return (
     <>
     <Header/> 
+    {/* <Routes> */}
      <HomePage/>
      <NewProducts/>
      <Custome/>
      <Laptop/>
      <Desktop/>
-     {/* <AboutProduct/> */}
+     <AboutProduct/>
      {/* <Product/> */}
      {/* <Features/> */}
      {/* <Support/> */}
-     {/* <ShoppingCart/> */}
+     <ShoppingCart/>
+     {/* </Routes> */}
      <Footer/>
     </>
   )

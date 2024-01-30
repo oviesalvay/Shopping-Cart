@@ -8,6 +8,7 @@ import desktop from './desktop.png'
 import image2 from './image2.png'
 import image1 from './image1.png'
 import Group from './Group.png'
+// import { Link } from 'react-router-dom';
 const Desktop =()=>{
     return(
         <section className='custome'>
@@ -45,11 +46,13 @@ const Desktop =()=>{
                                                 <p>Reviews (4)</p>
                                             </div>
                                             </div>
+                                           
                                         <p>EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...</p>
+                                       
                                         <del>$499.00 </del> <p> $499.00</p>
                                     </div>
                                     </SwiperSlide>
-                                    <p><p> <SwiperSlide>
+                                  <SwiperSlide>
                                     <div className='product-content'>
                                         <img src={image1} alt=""/>
                                         <div className='reviews'>
@@ -95,7 +98,7 @@ const Desktop =()=>{
                                         <del>$499.00 </del> <p> $499.00</p>
                                     </div>
                                     </SwiperSlide>
-                                    </p></p>
+                                   
                                     </Swiper>
         </section>
     )

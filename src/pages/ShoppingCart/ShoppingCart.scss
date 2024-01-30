@@ -1,9 +1,56 @@
 @import '../../scss/mixin';
 
+
+.shopping-intro{
+display:flex;
+justify-content: space-between;
+padding: 1rem 2rem;
+gap:3rem;
+
 .shopping-cart{
-    display: flex;
-    .cart{
-        display: flex;
-        align-items: center;
+    // @include padding;
+    // display:flex;
+    input{
+        outline:none;
+        border:none;
+        padding: .6rem;
+        width:30%;
+        background-color:  #F5F7FF;
     }
+
+    .cart-details{
+        display: flex;
+        // align-items: center;
+        gap:1rem;
+        // border-top: 1px solid #CACDD8;
+        border-bottom: 1px solid #CACDD8;
+        margin:1rem 0;
+        // div{
+        // border-bottom: 1px solid #CACDD8;    
+        // }
+    }
+    .shopping-btn{
+        display:flex;
+        justify-content: space-between;
+        margin:1rem 0;
+        .continue{
+            border:1px solid #A2A6B0;
+            font-size: 1rem;
+            padding: .4rem 1rem;
+            color:#A2A6B0;
+            border-radius: 50px;
+            background-color: white;
+            margin:0 .5rem;
+           } 
+           .clear{
+            background-color: #000000;
+            font-size: 1rem;
+            padding: .4rem 1rem;
+            border-radius: 50px;
+            border:none;
+            color:white;
+           }
+    }
+   
+}
 }

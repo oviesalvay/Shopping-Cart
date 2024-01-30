@@ -51,7 +51,8 @@ const Laptop =()=>{
                                         <del>$499.00 </del> <p> $499.00</p>
                                     </div>
                                     </SwiperSlide>
-                                    <p><p> <SwiperSlide>
+                                  
+                                         <SwiperSlide>
                                     <div className='product-content'>
                                         <img src={image3} alt=""/>
                                         <div className='reviews'>
@@ -59,7 +60,7 @@ const Laptop =()=>{
                                                 <img src={Group}alt=""/>
                                             </div>
                                             <div>
-                                                <p>Reviews (4)</p>
+                                                <p>Reviews(4)</p>
                                             </div>
                                             </div>
                                         <p>EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...</p>
@@ -96,7 +97,7 @@ const Laptop =()=>{
                                         <del>$499.00 </del> <p> $499.00</p>
                                     </div>
                                     </SwiperSlide>
-                                    </p></p>
+                                  
                                     </Swiper>
         </section>
     )

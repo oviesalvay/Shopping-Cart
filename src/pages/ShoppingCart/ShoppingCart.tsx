@@ -1,31 +1,78 @@
-
+import image from '../ShoppingCart/image.png'
+import images from '../ShoppingCart/images.png'
 import './ShoppingCart.scss'
-import { useState } from 'react';
+import Summary from './Summary/Summary'
+
 const ShoppingCart= ()=>{
-  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
-	const toggleDropdown = () => {
-		setIsDropdownOpen(!isDropdownOpen);
-		
-	};
+
     return(
+		<section className='shopping-intro'>
+			<div>
+       <div>
+     <h3>Shopping Cart</h3>
+ </div>
         <section className='shopping-cart'>
-       
-      <h3>Summary</h3>
-      <h5>Estimate Shipping and Tax</h5>
-      <div className="dropdown">
-						<div className='search'>
-							<div>
-								<li>Searches</li>
-							</div>
-							<div className="dropdown-toggle" onClick={toggleDropdown}>
-								<i className={`fa ${isDropdownOpen ? "fa-chevron-up" : "fa-chevron-down"}`} ></i>
-							</div>
-						</div>
-						{isDropdownOpen && (
-							<p>Enter your destination to get a shipping estimate.</p>
-                )}
-                </div>
+			<div>
+ <div className='cart-details'>
+<div>
+	<img src={image}alt=""/>
+</div>
+<div>
+	<h4>Item</h4>
+	<p>MSI MEG Trident X 10SD-1012AU Intel i7 10700K, <br></br>2070 SUPER, 
+		32GB RAM, 1TB SSD, Windows 10<br></br> Home, Gaming Keyboard and Mouse 3 Years Warranty</p>
+</div>
+<div>
+	<h4>Price</h4>
+	<p>$4,349.00</p>
+</div>
+<div>
+	<h4>Qty</h4>
+	<input type="number" placeholder="1"/>
+</div>
+<div>
+	<h4>Subtotal</h4>
+	<p>$13,047.00</p>
+</div>
+ </div></div>
+ <div>
+ <div className='cart-details'>
+<div>
+	<img src={images}alt=""/>
+</div>
+<div>
+	<h4>Item</h4>
+	<p>MSI MEG Trident X 10SD-1012AU Intel i7 10700K, <br></br>2070 SUPER, 
+		32GB RAM, 1TB SSD, Windows 10<br></br> Home, Gaming Keyboard and Mouse 3 Years Warranty</p>
+</div>
+<div>
+	<h4>Price</h4>
+	<p>$4,349.00</p>
+</div>
+<div>
+	<h4>Qty</h4>
+	<input type="number" placeholder="1"/>
+</div>
+<div>
+	<h4>Subtotal</h4>
+	<p>$13,047.00</p>
+</div>
+ </div></div>
+ <div className='shopping-btn'>
+	<div>
+	<button className='continue'>Continue Shopping</button>
+ <button className='clear'>Clear Shopping Cart</button>
+	</div>
+	<div>
+ <button className='clear'>Update Shopping Cart</button>
+	</div>
+ </div>
         </section>
+		</div>
+		<div>
+		<Summary/>
+		</div>
+		</section>
     )
 }
 export default ShoppingCart
