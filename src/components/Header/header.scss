@@ -2,7 +2,10 @@
 
 .header{
     @include padding;
-    @include flexbox;
+    // @include flexbox;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     .deals{
         border: 2px solid #0156FF;
         border-radius: 50px;

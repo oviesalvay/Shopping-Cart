@@ -2,13 +2,15 @@ import image from '../ShoppingCart/image.png'
 import images from '../ShoppingCart/images.png'
 import './ShoppingCart.scss'
 import Summary from './Summary/Summary'
+import ShoppingSupport from './Support/Support'
 
 const ShoppingCart= ()=>{
 
     return(
+		<>
 		<section className='shopping-intro'>
 			<div>
-       <div>
+       <div className='cart-header'>
      <h3>Shopping Cart</h3>
  </div>
         <section className='shopping-cart'>
@@ -73,6 +75,8 @@ const ShoppingCart= ()=>{
 		<Summary/>
 		</div>
 		</section>
+		<ShoppingSupport/>
+		</>
     )
 }
 export default ShoppingCart

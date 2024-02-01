@@ -1,7 +1,8 @@
 @import '../../../scss/mixin';
 .outplay{
     display: flex;
-    background-color: #0E0F10;
+    // background-color: linear-gradient (#010101,#0E0F10,#141517);
+    background-color: #010101;
     color:white;
     .outplay-content{
         padding:2rem 4rem;
@@ -9,5 +10,8 @@
             font-size: 2rem;
         }
 
+    }
+    .core{
+        width:70%;
     }
 }

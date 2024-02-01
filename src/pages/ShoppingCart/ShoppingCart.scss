@@ -4,11 +4,14 @@
 .shopping-intro{
 display:flex;
 justify-content: space-between;
-padding: 1rem 2rem;
+padding: 1rem 1rem;
 gap:3rem;
-
+.cart-header{
+    padding: 1rem 1rem;
+}
 .shopping-cart{
     // @include padding;
+    padding: 1rem 2rem;
     // display:flex;
     input{
         outline:none;

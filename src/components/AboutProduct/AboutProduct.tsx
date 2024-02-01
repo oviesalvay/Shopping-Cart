@@ -1,18 +1,20 @@
 import { useState } from "react"
-import Header from "../Header/Header"
 import './aboutproduct.scss'
 import Frame from '../AboutProduct/Frame.png'
 import Group from '../AboutProduct/Group.png'
 import image from '../AboutProduct/image.png'
 import primary from '../AboutProduct/primary.png'
 import OutPlay from "./OutPlay/OutPlay"
-
+import Features from "./Features/Features"
+import Product from "./Product/Product"
+import ShoppingSupport from "../../pages/ShoppingCart/Support/Support"
+import { Link } from "react-router-dom"
 const AboutProduct =()=>{
     const [tab,setTab]=useState(0)
     return(
+        <>
         <section className="about">
         <section className="about-product">
-        <Header/>
         <div className="about-btn">
             <hgroup>
             <button onClick={() => setTab(1)} className={tab === 1 ? 'current' : ''}>About Product</button>
@@ -25,9 +27,10 @@ const AboutProduct =()=>{
                 <div>
             <input type='number' placeholder="1"/>
                 </div>
+                <Link to='/shopping-cart'>
                 <div>
                     <button className="cart">Add to Cart</button>
-                </div>
+                </div></Link>
                 <div>
                     <img src={Frame}alt=""/>
                 </div>
@@ -58,6 +61,10 @@ const AboutProduct =()=>{
         </section>
         <OutPlay/>
         </section>
+        <Product/>
+        <Features/>
+        <ShoppingSupport/>
+        </>
     )
 }
 export default AboutProduct

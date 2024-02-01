@@ -12,7 +12,7 @@ const OutPlay=()=>{
                  <p>Performance compared to i7-9700. Specs varies by model.</p>
         </div>
         <div>
-            <img src={Rectangle}alt=""/>
+            <img src={Rectangle}alt="" className='core'/>
         </div>
         </section>
     )

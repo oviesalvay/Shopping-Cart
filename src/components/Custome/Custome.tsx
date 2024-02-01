@@ -12,6 +12,7 @@ import image5 from './image5.png'
 import image6 from './image6.png'
 import Group from './Group.png'
 import './custome.scss'
+import { Link } from 'react-router-dom';
 
 const Custome = ()=>{
     return(
@@ -50,7 +51,8 @@ const Custome = ()=>{
                                                 <p>Reviews (4)</p>
                                             </div>
                                             </div>
-                                        <p>EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...</p>
+                                       <Link to='/about-product'>
+                                        <p>EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...</p></Link>
                                         <del>$499.00 </del> 
                                         <p> $499.00</p>
                                     </div>
@@ -66,7 +68,8 @@ const Custome = ()=>{
                                                 <p>Reviews (4)</p>
                                             </div>
                                             </div>
-                                        <p>EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...</p>
+                                       <Link to='/about-product'>
+                                        <p>EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...</p></Link>
                                         <del>$499.00 </del>
                                          <p> $499.00</p>
                                     </div>
@@ -82,7 +85,8 @@ const Custome = ()=>{
                                                 <p>Reviews (4)</p>
                                             </div>
                                             </div>
-                                        <p>EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...</p>
+                                       <Link to='/about-product'>
+                                        <p>EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...</p></Link>
                                         <del>$499.00 </del> <p> $499.00</p>
                                     </div>
                                     </SwiperSlide>
@@ -97,7 +101,8 @@ const Custome = ()=>{
                                                 <p>Reviews (4)</p>
                                             </div>
                                             </div>
-                                        <p>EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...</p>
+                                       <Link to='/about-product'>
+                                        <p>EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...</p></Link>
                                         <del>$499.00 </del> <p> $499.00</p>
                                     </div>
                                     </SwiperSlide>
@@ -112,7 +117,8 @@ const Custome = ()=>{
                                                 <p>Reviews (4)</p>
                                             </div>
                                             </div>
-                                        <p>EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...</p>
+                                       <Link to='/about-product'>
+                                        <p>EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...</p></Link>
                                         <del>$499.00 </del> <p> $499.00</p>
                                     </div>
                                     </SwiperSlide>

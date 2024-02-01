@@ -2,9 +2,10 @@
 
 .about{
 .about-product{
-@include padding;
+@include padding-top;
     .about-btn{
-        @include flexbox;
+        @include flex-align;
+        align-items: center;
         hgroup{
             button{
                 margin:0 .7rem;

@@ -1,0 +1,12 @@
+@import '../../../scss/mixin';
+
+.support-intro{
+   @include flex-between;
+//    @include padding;
+padding: 1rem 6rem;
+//    text-align: center;
+   >div{
+flex-basis: 300px;
+text-align: center;
+   }
+}

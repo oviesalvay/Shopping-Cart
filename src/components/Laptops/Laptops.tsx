@@ -9,7 +9,7 @@ import image2 from './image2.png'
 import image3 from './image3.png'
 import image4 from './image4.png'
 import Group from './Group.png'
-
+import { Link } from 'react-router-dom';
 const Laptop =()=>{
     return(
         <section className='custome'>
@@ -47,7 +47,8 @@ const Laptop =()=>{
                                                 <p>Reviews (4)</p>
                                             </div>
                                             </div>
-                                        <p>EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...</p>
+                                      <Link to='/about-product'>
+                                        <p>EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...</p></Link>
                                         <del>$499.00 </del> <p> $499.00</p>
                                     </div>
                                     </SwiperSlide>
@@ -63,7 +64,8 @@ const Laptop =()=>{
                                                 <p>Reviews(4)</p>
                                             </div>
                                             </div>
-                                        <p>EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...</p>
+                                      <Link to='/about-product'>
+                                        <p>EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...</p></Link>
                                         <del>$499.00 </del> <p> $499.00</p>
                                     </div>
                                     </SwiperSlide>
@@ -78,7 +80,8 @@ const Laptop =()=>{
                                                 <p>Reviews (4)</p>
                                             </div>
                                             </div>
-                                        <p>EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...</p>
+                                      <Link to='/about-product'>
+                                        <p>EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...</p></Link>
                                         <del>$499.00 </del> <p> $499.00</p>
                                     </div>
                                     </SwiperSlide>
@@ -93,7 +96,8 @@ const Laptop =()=>{
                                                 <p>Reviews (4)</p>
                                             </div>
                                             </div>
-                                        <p>EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...</p>
+                                      <Link to='/about-product'>
+                                        <p>EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...</p></Link>
                                         <del>$499.00 </del> <p> $499.00</p>
                                     </div>
                                     </SwiperSlide>
