@@ -34,3 +34,6 @@ a{
 a:visited{
   color:inherit;
 }
+span{
+  margin-left: 1rem;
+}

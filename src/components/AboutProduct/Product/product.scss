@@ -1,11 +1,15 @@
 @import '../../../scss/mixin';
 
-.product-content{
+.products-content{
     text-align: center;
     padding:1rem 8rem;
-    // display:flex;
-    // align-items: center;
+    align-items: center;
     @include flex;
+    flex-wrap: wrap;
+    >div{
+        flex-basis: 300px;
+        flex-grow: 1;
+    }
     .product{
         @include flex;
         justify-content: space-between;
@@ -13,5 +17,10 @@
         padding:.2rem 2rem;
         border:1px solid #CACDD8;
         margin:1rem 0;
+    }
+}
+@media screen and (max-width:990px){
+    .products-content{
+        padding: 1rem;
     }
 }

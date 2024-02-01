@@ -3,6 +3,8 @@
 .support-intro{
    @include flex-between;
 //    @include padding;
+// justify-content: space-between;
+flex-grow: 1;
 padding: 1rem 6rem;
 //    text-align: center;
    >div{

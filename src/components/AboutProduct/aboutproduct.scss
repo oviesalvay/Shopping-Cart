@@ -21,6 +21,11 @@
         }
         .flex1{
             @include flex;
+            flex-wrap: wrap;
+            >div {
+                flex-basis: 150px;
+                flex-grow: 1;
+            }
             input{
                 outline:none;
                 border:none;
@@ -39,7 +44,12 @@
         }
     }
     .flex2{
-        @include flexbox;
+        @include flex-between;
+        align-items: center;
+        >div{
+            flex-grow: 1;
+            flex-basis: 400px;
+        }
         .review{
             background-color:  #F5F7FF;
             padding: 5rem 6rem;
@@ -56,4 +66,19 @@
         }
     }
 }
+}
+@media screen and (max-width:990px){
+    .about{
+        .about-product{
+            padding: 1rem;
+
+            .flex2{
+                .review{
+                    padding: 1rem;
+                    margin-top: 2rem;
+
+                }
+            }
+        }
+    }
 }

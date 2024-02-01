@@ -52,9 +52,9 @@ const NewProducts =()=>{
                                                 <p>Reviews (4)</p>
                                             </div>
                                             </div>
-                                            <Link to='/about-product'>
+                                            
                                      <Link to='/about-product'>
-                                        <p>EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...</p></Link></Link>
+                                        <p>EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...</p></Link>
                                         <del>$499.00 </del> <span> $499.00</span>
                                     </div>
                                     </SwiperSlide>
@@ -69,9 +69,9 @@ const NewProducts =()=>{
                                                 <p>Reviews (4)</p>
                                             </div>
                                             </div>
-                                            <Link to='/about-product'>
+                                           
                                          <Link to='/about-product'>
-                                        <p>EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...</p></Link></Link>
+                                        <p>EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...</p></Link>
                                             <del>$499.00 </del> <span> $499.00</span>
                                     </div>
                                     </SwiperSlide>
@@ -86,9 +86,9 @@ const NewProducts =()=>{
                                                 <p>Reviews (4)</p>
                                             </div>
                                             </div>
-                                            <Link to='/about-product'>
+                                           
                                      <Link to='/about-product'>
-                                        <p>EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...</p></Link></Link>
+                                        <p>EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...</p></Link>
                                             <del>$499.00 </del> <span> $499.00</span>
                                     </div>
                                     </SwiperSlide>
@@ -125,7 +125,7 @@ const NewProducts =()=>{
                                     </div>
                                     </SwiperSlide>
                                     <SwiperSlide>
-                                    <div>
+                                    <div className='product-content'>
                                         <img src={image6} alt=""/>
                                         <div className='reviews'>
                                             <div>

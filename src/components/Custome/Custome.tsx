@@ -54,7 +54,7 @@ const Custome = ()=>{
                                        <Link to='/about-product'>
                                         <p>EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...</p></Link>
                                         <del>$499.00 </del> 
-                                        <p> $499.00</p>
+                                        <span> $499.00</span>
                                     </div>
                                     </SwiperSlide>
                                     <SwiperSlide>
@@ -71,7 +71,7 @@ const Custome = ()=>{
                                        <Link to='/about-product'>
                                         <p>EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...</p></Link>
                                         <del>$499.00 </del>
-                                         <p> $499.00</p>
+                                         <span> $499.00</span>
                                     </div>
                                     </SwiperSlide>
                                     <SwiperSlide>
@@ -87,7 +87,7 @@ const Custome = ()=>{
                                             </div>
                                        <Link to='/about-product'>
                                         <p>EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...</p></Link>
-                                        <del>$499.00 </del> <p> $499.00</p>
+                                        <del>$499.00 </del> <span> $499.00</span>
                                     </div>
                                     </SwiperSlide>
                                     <SwiperSlide>
@@ -103,7 +103,7 @@ const Custome = ()=>{
                                             </div>
                                        <Link to='/about-product'>
                                         <p>EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...</p></Link>
-                                        <del>$499.00 </del> <p> $499.00</p>
+                                        <del>$499.00 </del> <span> $499.00</span>
                                     </div>
                                     </SwiperSlide>
                                     <SwiperSlide>
@@ -119,7 +119,7 @@ const Custome = ()=>{
                                             </div>
                                        <Link to='/about-product'>
                                         <p>EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...</p></Link>
-                                        <del>$499.00 </del> <p> $499.00</p>
+                                        <del>$499.00 </del> <span> $499.00</span>
                                     </div>
                                     </SwiperSlide>
                                 </Swiper>

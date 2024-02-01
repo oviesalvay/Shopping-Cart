@@ -10,3 +10,15 @@
 }
     }
 }
+@media screen and (max-width:990px){
+    .custome{
+        padding: 0 1rem;
+        .product-content{
+            padding:1rem 3rem;
+            // text-align: center;
+            .reviews{
+                text-align: center;
+            }
+        }
+    }
+}

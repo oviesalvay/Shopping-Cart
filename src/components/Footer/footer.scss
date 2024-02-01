@@ -2,6 +2,7 @@
 
 footer{
     @include padding;
+    padding-top: 2rem;
     .footer-top{
         @include flex-align;
     }

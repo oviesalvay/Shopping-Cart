@@ -1,6 +1,6 @@
 @import '../../../scss/mixin';
 .outplay{
-    display: flex;
+  @include flex-between;
     // background-color: linear-gradient (#010101,#0E0F10,#141517);
     background-color: #010101;
     color:white;
@@ -14,4 +14,20 @@
     .core{
         width:70%;
     }
+    >div{
+        flex-basis: 300px;
+        flex-grow: 1;
+    }
+}
+@media screen and (max-width:990px){
+    .outplay{
+        .outplay-content{
+            padding: 1rem;
+            
+        }
+        .core{
+            width:100%;
+        }
+    }
+    
 }

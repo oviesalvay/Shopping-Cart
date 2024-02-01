@@ -3,7 +3,7 @@ import arrow from './image.png'
 import './product.scss'
 const Product = ()=>{
     return(
-        <section className="product-content">
+        <section className="products-content">
             <div>
             <div className='product'>
 <div>

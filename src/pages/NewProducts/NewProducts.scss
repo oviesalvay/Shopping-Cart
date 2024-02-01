@@ -4,6 +4,7 @@
     @include padding;
     .see-all{
         @include flexbox;
+        justify-content: space-between;
     }
     .swipe-slide{
         .swiper-button-next:after{
@@ -27,9 +28,14 @@
         align-items: center;
         // margin:1rem 0;
     }
-    span{
-        // margin:2rem 0;
-    }
    }
 }
+}
+@media screen and (max-width:990px){
+    .products{
+        padding: 1rem 2rem;
+        .product-content{
+            padding: 3rem;
+        }
+    }
 }

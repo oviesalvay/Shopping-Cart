@@ -10,7 +10,10 @@
         font-size:1.5rem;
     }
     .features{
-        @include flex;
+        @include flex-between;
         margin:2rem 0;
+        >div{
+            flex-basis: 270px;
+        }
     }
 }

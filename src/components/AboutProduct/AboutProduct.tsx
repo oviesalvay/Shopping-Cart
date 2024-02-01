@@ -40,8 +40,8 @@ const AboutProduct =()=>{
             <div className="review">
             <h1>MSI MPG Trident 3</h1>
             <p id="first">Be the first to review this product</p>
-            <p>MSI MPG Trident 3 10SC-005AU Intel i7 10700F, 2060 SUPER,<br></br> 16GB RAM, 512GB SSD, 2TB HDD, Windows 10 Home, 
-                Gaming <br></br>Keyboard and Mouse 3 Years Warranty Gaming Desktop</p>
+            <p>MSI MPG Trident 3 10SC-005AU Intel i7 10700F, 2060 SUPER, 16GB RAM, 512GB SSD, 2TB HDD, Windows 10 Home, 
+                Gaming Keyboard and Mouse 3 Years Warranty Gaming Desktop</p>
                 <p>Have a Question? Contact Us</p>
                 <h5>+ More information</h5>
             <img src={Group}alt="" className="group"/>
