@@ -28,9 +28,7 @@ gap:1rem;
 
     .cart-details{
         display: flex;
-        // align-items: center;
         gap:1rem;
-        // border-top: 1px solid #CACDD8;
         border-bottom: 1px solid #CACDD8;
         margin:1rem 0;
        
@@ -64,7 +62,7 @@ gap:1rem;
 @media screen and (max-width:990px){
     .shopping-intro{
         .shopping-cart{
-
+padding: 1rem;
         }
     }
 }
