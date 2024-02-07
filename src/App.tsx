@@ -12,7 +12,6 @@ import Header from './components/Header/Header'
 // import Product from './components/Product/Product'
 // import Support from './components/Support/Support'
 import HomePage from './pages/HomePage/Homepage'
-// import NewProducts from './pages/NewProducts/NewProduct'
 import {Routes,Route} from 'react-router-dom'
 import {BrowserRouter as Router}  from "react-router-dom";
 import ShoppingCart from './pages/ShoppingCart/ShoppingCart';
