@@ -51,8 +51,7 @@ const NewProducts =()=>{
                                             <div>
                                                 <p>Reviews (4)</p>
                                             </div>
-                                            </div>
-                                            
+                                            </div>   
                                      <Link to='/about-product'>
                                         <p>EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...</p></Link>
                                         <del>$499.00 </del> <span> $499.00</span>
