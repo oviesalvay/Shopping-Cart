@@ -4,7 +4,7 @@ import Saving from  './Saving.png'
 import Supports from  './Supports.png'
 const ShoppingSupport = ()=>{
     return(
-        <section className="support-intro">
+        <section className="support-intro introduction">
 <div>
     <img src={Supports}alt=''/>
     <h5>Product Support</h5>
