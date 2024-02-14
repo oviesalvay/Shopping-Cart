@@ -2,9 +2,11 @@
 
 @mixin flexbox{
     display: flex;
-    // justify-content: space-between;
     align-items: center;
     gap:2rem;
+}
+@mixin padding-top{
+    padding: 5rem;
 }
 @mixin padding{
     padding: 1rem clamp(4rem, 4vh, 6rem)2rem;
